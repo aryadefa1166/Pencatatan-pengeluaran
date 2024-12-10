@@ -68,3 +68,6 @@ begin
     writeln('Total pengeluaran: ', total);
     writeln('Jenis pengeluaran terbesar: ', terbesar);
     writeln('Sisa anggaran: ', sisa);
+    
+    if sisa < (anggaran div 10) then
+        writeln('Peringatan: Sisa anggaran kurang dari 10%!');
