@@ -63,3 +63,8 @@ var
 begin
     clrscr;
     sisa := saldo;
+
+    writeln('--- Laporan Pengeluaran ---');
+    writeln('Total pengeluaran: ', total);
+    writeln('Jenis pengeluaran terbesar: ', terbesar);
+    writeln('Sisa anggaran: ', sisa);
