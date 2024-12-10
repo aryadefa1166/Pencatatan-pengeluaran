@@ -36,3 +36,6 @@ begin
         tanggal := p.tanggal;
     end;
     total := total + p.jumlah;
+
+    writeln('Pengeluaran berhasil ditambahkan.');
+end;
