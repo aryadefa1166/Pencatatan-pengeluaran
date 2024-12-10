@@ -84,3 +84,11 @@ begin
         writeln;
     end;
 end;
+
+//program utama
+begin 
+    clrscr;
+    n := 0;
+    total := 0;
+    write('Masukkan total anggaran bulanan Anda: ');
+    readln(anggaran);
