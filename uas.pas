@@ -50,3 +50,8 @@ begin
             maks := i;
     terbesar := data[maks].jenis;
 end;
+
+function saldo: longint; //hitung saldo
+begin
+    saldo := anggaran - total;
+end;
