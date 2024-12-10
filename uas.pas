@@ -92,3 +92,12 @@ begin
     total := 0;
     write('Masukkan total anggaran bulanan Anda: ');
     readln(anggaran);
+
+    repeat
+        clrscr;
+        writeln('--- Menu Utama ---');
+        writeln('1. Tambah Pengeluaran');
+        writeln('2. Lihat Laporan');
+        writeln('3. Keluar');
+        write('Pilih menu (1-3): ');
+        readln(menu);
