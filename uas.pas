@@ -39,3 +39,14 @@ begin
 
     writeln('Pengeluaran berhasil ditambahkan.');
 end;
+
+function terbesar: string; //cari pengeluaran terbesar
+var
+    i, maks: integer;
+begin
+    maks := 1;
+    for i := 1 to n do
+        if data[i].jumlah > data[maks].jumlah then
+            maks := i;
+    terbesar := data[maks].jenis;
+end;
