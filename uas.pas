@@ -71,3 +71,16 @@ begin
     
     if sisa < (anggaran div 10) then
         writeln('Peringatan: Sisa anggaran kurang dari 10%!');
+
+    writeln;
+    writeln('Detail pengeluaran:');
+    writeln;
+    for i := 1 to n do
+    begin
+        writeln('Pengeluaran ke-', i, ':');
+        writeln('  Jenis: ', data[i].jenis);
+        writeln('  Jumlah: ', data[i].jumlah);
+        writeln('  Tanggal: ', data[i].tanggal);
+        writeln;
+    end;
+end;
