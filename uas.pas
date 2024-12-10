@@ -55,3 +55,11 @@ function saldo: longint; //hitung saldo
 begin
     saldo := anggaran - total;
 end;
+
+procedure laporan; //menampilkan laporan pengeluaran
+var
+    sisa: longint;
+    i: longint;
+begin
+    clrscr;
+    sisa := saldo;
