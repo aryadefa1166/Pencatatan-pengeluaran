@@ -101,3 +101,15 @@ begin
         writeln('3. Keluar');
         write('Pilih menu (1-3): ');
         readln(menu);
+
+        case menu of
+            1: tambah; //ke procedure tambah
+            2: laporan; //ke procedure laporan
+            3: writeln('Terima kasih telah menggunakan program!');
+        else
+            writeln('Pilihan tidak valid. Silakan coba lagi.');
+            writeln('Tekan Enter untuk kembali ke menu.');
+            readln;
+        end;
+    until menu = 3;
+end.
