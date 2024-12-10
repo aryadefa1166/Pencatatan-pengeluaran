@@ -27,3 +27,12 @@ begin
         write('Masukkan tanggal pengeluaran (dd-mm-yyyy): ');
         readln(tanggal);
     end;
+
+    inc(n); //(increment) setiap data ditambah maka n+1
+    with data[n] do
+    begin
+        jenis := p.jenis;
+        jumlah := p.jumlah;
+        tanggal := p.tanggal;
+    end;
+    total := total + p.jumlah;
