@@ -38,6 +38,7 @@ begin
     total := total + p.jumlah;
 
     writeln('Pengeluaran berhasil ditambahkan.');
+    readln;
 end;
 
 function terbesar: string; //cari pengeluaran terbesar
