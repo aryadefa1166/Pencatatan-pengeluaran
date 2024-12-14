@@ -10,8 +10,8 @@ type
 
 var
     data: array[1..100] of pengeluaran;
-    anggaran, total, n: longint;
-    menu: integer;
+    anggaran, total: longint;
+    menu, n: integer;
 
 procedure tambah; //menambah data pengeluaran
 var
