@@ -83,6 +83,8 @@ begin
         writeln('  Tanggal: ', data[i].tanggal);
         writeln;
     end;
+    writeln('Tekan Enter untuk kembali ke menu...');
+    readln; // Tunggu pengguna membaca laporan
 end;
 
 //program utama
